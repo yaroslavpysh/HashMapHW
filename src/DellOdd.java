@@ -17,7 +17,7 @@ public class DellOdd {
         map.put("I", 9);
         map.put("J", 10);
 
-        map.values().removeIf(value -> value%2 ==0);
+        map.values().removeIf(value -> value%2 !=0);
         System.out.println(map);
     }
 
